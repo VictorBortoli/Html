@@ -1,0 +1,63 @@
+*{
+    margin:  0 ;
+    padding: 0;
+}
+
+
+#Logo{
+  display: flex;
+  
+}
+
+#produto{
+    margin-top: 30px;
+    margin-bottom: 30px ;
+    margin: auto;
+    width: 40%;
+    border-radius: 40px;
+    
+}
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+
+.produtos div img{
+    width: 180px;
+    border-radius: 10px;
+    }
+
+#pesquisa{
+    text-align: right;
+    
+}
+
+#titulo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#promocao {
+text-align: center;
+
+    
+}
+#cabecalho h3, .produtos p, .produtos div{
+    
+    width: 30%;
+    text-align: center;
+    border-radius: 40px;
+}
+
+body{
+    background: #520101;
+    color: white;
+}
+
+#contato{
+    background-color: black;
+}
